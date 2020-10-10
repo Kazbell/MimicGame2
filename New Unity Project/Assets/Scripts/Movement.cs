@@ -16,9 +16,10 @@ public class Movement : MonoBehaviour
     {
         Vector3 move;
 
+       
         if (Input.GetKey(KeyCode.W))
         {
-        Debug.Log(speed * Time.deltaTime);
+            GetComponent<Animator>().SetInteger("Direction", 2); //imagine w is eat
             move = new Vector2(0, speed * Time.deltaTime);
 
             transform.position += move;
@@ -39,7 +40,7 @@ public class Movement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.S))
         {
-            //GetComponent<Animator>().SetInteger("New Int", 0);
+            GetComponent<Animator>().SetInteger("Direction", 0);
             move = new Vector2(0, speed * Time.deltaTime);
             Debug.Log(move);
 
