@@ -13,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Bullets
+  - Enemy
+  - Walls
+  - Environment
   - 
   - 
   - 
@@ -40,4 +40,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3942296159
+    locked: 0
+  - name: Walls
+    uniqueID: 1224489151
+    locked: 0
+  - name: Environment
+    uniqueID: 1328693371
+    locked: 0
+  - name: Projectiles
+    uniqueID: 2523919267
+    locked: 0
+  - name: Enemies
+    uniqueID: 1636806541
+    locked: 0
+  - name: Player
+    uniqueID: 3671443243
     locked: 0

@@ -6,14 +6,14 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
 
-    public float speed = 1;
-    public bool action;
+    public float speed = 4;
+
     // Use this for initialization
     void Start()
     {
         action = false;
     }
-    void Update()
+    void FixedUpdate()
     {
         Vector3 move;
         GetComponent<Animator>().SetInteger("Direction", 4);
