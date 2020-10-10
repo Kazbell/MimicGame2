@@ -16,7 +16,7 @@ public class Movement : MonoBehaviour
     {
         Vector3 move;
 
-       
+        GetComponent<Animator>().SetInteger("Direction", 4); 
         if (Input.GetKey(KeyCode.W))
         {
             GetComponent<Animator>().SetInteger("Direction", 2); //imagine w is eat
