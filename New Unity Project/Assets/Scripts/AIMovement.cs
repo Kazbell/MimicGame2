@@ -18,17 +18,17 @@ public class AIMovement : MonoBehaviour
         randomSpot = Random.Range(0, moveSpots.Length);
         GameObject player = GameObject.Find("Chest");
         Movement playerScript = player.GetComponent<Movement>();
-        detect = playerScript.action;
+        //detect = playerScript.action;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (detect)
+        //if (detect)
         {
 
         }
-        else
+        //else
         {
             transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
             if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)

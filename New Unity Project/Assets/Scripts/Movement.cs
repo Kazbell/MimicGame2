@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
 {
 
     public float speed = 4;
+    public bool action;
 
     // Use this for initialization
     void Start()
