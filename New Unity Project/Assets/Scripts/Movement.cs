@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour
     {
 
     }
-    void Update()
+    void FixedUpdate()
     {
         Vector3 move;
         GetComponent<Animator>().SetInteger("Direction", 4);
