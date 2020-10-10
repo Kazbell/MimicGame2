@@ -6,7 +6,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
 
-    public float speed = 1;
+    public float speed = 4;
     // Use this for initialization
     void Start()
     {
