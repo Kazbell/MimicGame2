@@ -50,11 +50,11 @@ TagManager:
   - name: Environment
     uniqueID: 1328693371
     locked: 0
-  - name: Projectiles
-    uniqueID: 2523919267
-    locked: 0
   - name: Enemies
     uniqueID: 1636806541
+    locked: 0
+  - name: Projectiles
+    uniqueID: 2523919267
     locked: 0
   - name: Player
     uniqueID: 3671443243
